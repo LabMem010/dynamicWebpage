@@ -1,0 +1,49 @@
+/* 
+    BEM 手机模式
+
+    模块
+    元素
+    修饰
+
+ */
+
+.header{
+    height: 80px;
+    background-color:#f7f7f7;
+}
+.header_wrap{
+    width:1200px;
+    height: 80px;
+    position: relative;
+}
+.header_logo{
+    width: 150px;
+    height: 30px;
+    line-height: 38px;
+    font-size: 20px;
+    color: #07111b;
+    text-indent: 50px;
+    background: url('../img/logo.png')  left center no-repeat;
+    background-size: 38px 38px;
+    position: absolute;
+    top:50%;
+    margin-top:-19px; 
+    left: 20px;
+}
+
+.header_nav{
+    position: absolute;;
+    right: 20px;
+    height: 30px;
+    top: 50px;
+    margin-top: -19px;
+}
+.header_nav-item{
+
+}
+.header_nav-item_status_active{
+
+}
+.header_nav-item_custom_button{
+
+}
